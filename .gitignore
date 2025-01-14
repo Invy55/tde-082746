@@ -1,0 +1,10 @@
+# - Ignore files without an extension - #
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
+# - Ignore windows executables - #
+*.exe
