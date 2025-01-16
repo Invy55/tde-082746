@@ -1,0 +1,5 @@
+mele 7
+pere 3
+pane 1
+pesto 2
+olio 1

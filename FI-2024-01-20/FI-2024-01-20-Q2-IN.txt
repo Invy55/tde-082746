@@ -1,0 +1,8 @@
+mele 2
+pere 2
+pane 1
+mele 1
+pesto 2
+mele 4
+olio 1
+pere 1
