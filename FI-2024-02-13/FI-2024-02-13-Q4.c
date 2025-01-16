@@ -19,7 +19,7 @@ typedef Nodo * Lista;
 Lista MaggioriDiTuttiISuccessori(Lista);
 
 int main() {
-int numeri[] = {3,32,4,6,3,20,17,2,17,9,7,1};
+    int numeri[] = {3,32,4,6,3,20,17,2,17,9,7,1};
     int n = 12;
     // creo e riempo la lista dai numeri
     Lista lis, curNodo;
