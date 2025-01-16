@@ -91,5 +91,4 @@ void sdoppia(Lista lis, Lista * pPos, Lista * pNeg) {
     }
     curPos->next = NULL;
     curNeg->next = NULL;
-
 }
