@@ -24,13 +24,17 @@ int main(int argc, char **argv) {
 int distingui(char s[], char up[], char low[]) {
     char cur = *s;
     if (cur == '\0') { // terminatore di stringa
+        *up = '\0';
+        *low = '\0';
         return 0;
     } else if (cur>='a' && cur<='z') { // carattere minuscolo
         *low = cur;
-        return distingui(++s, up, ++low);
-    } else if (cur>='A'&&cur<='Z') { // carattere maiuscolo
+        *(++low) = '\0';
+        return distingui(++s, up, low);
+    } else if (cur>='A' && cur<='Z') { // carattere maiuscolo
         *up = cur;
-        return distingui(++s, ++up, low);
+        *(++up) = '\0';
+        return distingui(++s, up, low);
     } else { // non lettera
         return 1 + distingui(++s, up, low);
     }
