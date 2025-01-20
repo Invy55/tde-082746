@@ -8,3 +8,6 @@
 
 # - Ignore windows executables - #
 *.exe
+
+# Ignore all hidden folders
+.*/

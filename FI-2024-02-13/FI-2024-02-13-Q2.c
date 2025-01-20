@@ -57,6 +57,7 @@ int main(int argc, char ** argv) {
         fscanf(fp, "%d %d %s", &o, &m, dipendente);
         printf("%d:%02d - %s\n", o, m, dipendente);
     }
+    fclose(fp);
     return 0;
 }
 

@@ -49,7 +49,7 @@ int main() {
 }
 
 Lista MaggioriDiTuttiISuccessori(Lista pL) {
-    Lista cur, iter, prev;
+    Lista cur, iter, prev=NULL;
     int rimuovere;
     cur = pL;
     while(cur!=NULL) {

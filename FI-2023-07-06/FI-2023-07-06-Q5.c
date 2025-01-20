@@ -63,6 +63,7 @@ int main(int argc, char ** argv) {
 
     lis = Ordina(lis);
     stampa(lis);
+    fclose(fp);
     return 0;
 }
 

@@ -61,7 +61,8 @@ int main(int argc, char **argv) {
         }
         cur = cur->next;
     }
-
+    
+    fclose(fp);
     return 0;
 }
 
