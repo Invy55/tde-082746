@@ -70,6 +70,8 @@ int main(int argc, char **argv) {
         printf("(%d, %d) ", minimiRC[p][0], minimiRC[p][1]);
     }
     printf("\n");
+    
+    fclose(fp);
     return 0;
 }
 

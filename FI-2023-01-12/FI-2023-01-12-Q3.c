@@ -55,6 +55,9 @@ int main(int argc, char ** argv) {
     } else {
         printf("La ricetta non può essere preparata\n");
     }
+
+    fclose(disp);
+    fclose(ingr);
     return 0;
 }
 

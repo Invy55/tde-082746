@@ -64,6 +64,8 @@ int main(int argc, char **argv) {
     ripulisci(fin, fout);
 
     printf("Fatto\n");
+    fclose(fin);
+    fclose(fout);
     return 0;
 }
 
